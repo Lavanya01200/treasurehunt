@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Round1</title>
+        <script type="text/javascript">
+    
+          window.onload = function () {
+             document.getElementById('button1').onclick = function() {
+              if(document.getElementById("code").value == 'Kanchenjunga')
+                  location.href = "clue2.php";
+              else{
+              location.href = "clue11.php";     }
+              return false;
+             }
+          }
+          
+      </script>
+        <style>
+          .ques1{
+            width:600px;
+            height:230px;
+            margin-left:500px;
+            margin-top:60px;
+            border-style: groove;
+          }
+          .inp{
+            margin-top:20px;
+            margin-left:700px;
+            width:200px;
+            height:50px;
+            font-size:20px;
+            color:black;
+            border-style:solid;
+          }
+          .p1{
+            padding-left:15px;
+            
+            font-size:18px;
+          }
+          body{
+            background-image:url(img1.jpeg);
+            background-repeat:no-repeat;
+            background-size:cover;
+          }
+          .btn {
+            margin-left:750px;
+            margin-top:10px;
+            -webkit-border-radius: 31;
+            -moz-border-radius: 31;
+            border-radius: 31px;
+            text-shadow: 4px 3px 6px #a3a3a3;
+            -webkit-box-shadow: 5px 3px 5px #828282;
+            -moz-box-shadow: 5px 3px 5px #828282;
+            box-shadow: 5px 3px 5px #828282;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 23px;
+            padding: 12px;
+            background: #2376ad;
+            text-decoration: none;
+            border-style:none;
+          }
+          
+          .btn:hover {
+            background: #7dcbd4;
+            text-decoration: none;
+          }
+          
+        </style>
+    </head>
+    <body>
+        <h1 style="color:whitesmoke; padding-left:600px;margin-top:100px;font-size:50px;"><strong>Clue for Round1</strong></h1>
+        <div class="ques1">
+            <p class="p1">
+              <strong>
+                Hello folks !!! I know you are pretty much interested in playing this game... <br>
+                So, Let's begin our round1 without any delay... <br>
+                I think you are aware of famous tourist places.... <br>
+                If it is true, it will be easy for you to clear this round in short span of time... <br>
+                Himalayas are one of the youngest mountain ranges on planet.<br>It is such a beatiful place covered with deposits of snow and ice.
+                <br>But I am confused in finding the tallest Himalayan mountain in the Indian territory.<br>Can you please help in finding it?
+            </strong>
+            </p>
+        </div>
+        <div>
+            <input type="text" class="inp" id="code" placeholder="enter the  answer...">
+           
+        </div>
+        <div>
+          <input name="submit" type="submit" id="button1" value="submit" class="btn" style="cursor:pointer"/>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+    <script>
+        var submitAnswer = function() {
+
+var radios = document.getElementsByName('choice');
+var val= "";
+for (var i = 0, length = radios.length; i < length; i++) {
+    if (radios[i].checked) {
+       val = radios[i].value; 
+       break;
+     }
+}
+
+if (val == "" ) {
+  alert('please select choice answer');
+} else if ( val == "hawa_mahal" ) {
+  location.href="clue3.php";
+} else 
+{
+  alert('Answer is wrong');
+  location.href="end.php";
+}
+};
+    </script>
+    <style>
+        body{
+            background-image: url("img1.jpeg");
+            background-position: -13% 29% ;
+            color:whitesmoke;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            margin-top: 7%;
+        }
+        h1
+        {
+            margin-top: 3%;
+        }
+        .t1,.t2
+        {
+            position: relative;
+            left:420px;
+            top:10px;
+        }
+        .o1,.o2
+        {
+            position:relative;
+            left:400px;
+
+        }
+        .t3,.t4
+        {
+            position: relative;
+            left:820px;
+            top:-93px;
+        }
+        .o3,.o4
+        {
+            position:relative;
+            left:800px;
+            top:-102px;
+        }
+        .but
+        {
+            position:relative;
+            top:-102px;
+            left:-43px;
+            padding: 6px 8px 6px 8px;
+            border-radius: 60px;
+        }
+        .but:hover{
+            background-color: #994d00;
+            color:white;
+            position:relative;
+            top:-100;
+
+        }
+    </style>
+</html>
+<body> <h1 style="color:whitesmoke;font-size:50px;"><strong>Clue for Round 2</strong></h1>
+    <h1>Welcome to India! You arrive at New Delhi, the capital of India. 
+        <br>During a day of sight seeing, which of the following would you NOT see in New Delhi?</h1><br>
+<form >
+    <table>
+        <tr>
+        <th ><input type="radio" name="choice" class="o1" value="jantar_mantar"> </th><th><h2 class="t1">Jantar Mantar</h2></th></tr>
+        <tr>
+            <th ><input type="radio" name="choice" class="o2" value="hawa_mahal"></th><th> <h2 class="t2">Hawa Mahal</h2></th></tr>
+                <tr>
+                    <th ><input type="radio" name="choice" class="o3" value="red_fort"> </th><th><h2 class="t3" >Red Fort</h2></th></tr>
+                        <tr>
+                            <th ><input type="radio" name="choice" class="o4" value="None of These"> </th><th><h2 class="t4">None of These</h2></th></tr>
+    </table>
+</form>
+<button onclick="submitAnswer()" class="but">Submit Answer</button>
+</body>
+</html>

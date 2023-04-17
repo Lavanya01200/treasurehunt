@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="stylesign.css">
+
+  </head>
+  <body>
+    <center>
+             <form class="frm1" name='form' action="register.php" method="post">
+                 <table  class="tab1" cellspacing="25">
+                   <strong><h1 class="hello">SignUp</h1></strong>
+                   <tr>
+                       <td><label for="name"> Full Name</label></td>
+                       <td><input type="text" name="name" required></td>
+                   </tr>
+                     <tr>
+                         <td><label for="username">User Name</label></td>
+                         <td><input type="text" name="username" required></td>
+                     </tr>
+                     <tr>
+                         <td><label for="email">Email</label></td>
+                         <td><input type="email" name="email" required></td>
+                     </tr>
+                     <tr>
+                         <td><label for="password">Password</label></td>
+                         <td><input type="password" name="password" required></td>
+                     </tr>
+                     <tr>
+                         <td><label for="contact">Contact</label></td>
+                         <td><input type="text" name="contact"  required></td>
+                     </tr>
+                     <tr>
+                           <td><label for="dob">Date of birth</label></td>
+                           <td><input type="date" name="dob" required></td>
+                     </tr>
+                     <tr>
+                         <td><label for="age">Age</label></td>
+                         <td><input type="number" name="age" required></td>
+                   </tr>
+                   <tr>
+                     <td><input type="radio" name="gender" value="male" required>Male
+                    <input type="radio" name="gender" value="female" required>Female</td>
+                   </tr>
+                   <tr>
+                     <td><input type="checkbox" id="check" name="check" value="" required>
+<label for="check">Terms and conditions apply </label></td>
+                   </tr>
+                   <tr>
+                     <td><input type="submit" name="Signup" value="Submit" class="btn btn-secondary">
+                     <input type="reset" value="Reset" class="btn btn-secondary"></td>
+                   </tr>
+
+                 </table>
+
+                   <span class="psw">Already have an account  <a href="login.html">SignIn</a></span>
+
+             </form>
+         </center>
+  </body>
+</html>

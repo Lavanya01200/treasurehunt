@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <script type="text/javascript">
+    
+            window.onload = function () {
+               document.getElementById('button1').onclick = function() {
+                if(document.getElementById("code").value == 'thailand')
+                    location.href = "clue.php";
+                
+                else{
+                location.href = "end.php";     }
+                return false;
+               }
+            }
+            
+        </script>
+        <style>
+          body{
+            background-image:url(img1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow:hidden;
+          }
+          .i
+          {
+            width:400px;
+            height:400px;
+            margin-top:50px;
+            margin-left:400px;
+          }
+          .p{
+            position:relative;
+            top:-350px;
+            left:850px;
+            font-size:30px;
+          }
+          .btn {
+            position:relative;
+            margin-left:1100px;
+            margin-top:-280px;
+            -webkit-border-radius: 31;
+            -moz-border-radius: 31;
+            border-radius: 31px;
+            text-shadow: 4px 3px 6px #a3a3a3;
+            -webkit-box-shadow: 5px 3px 5px #828282;
+            -moz-box-shadow: 5px 3px 5px #828282;
+            box-shadow: 5px 3px 5px #828282;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 23px;
+            padding: 12px;
+            background: #2376ad;
+            text-decoration: none;
+            border-style:none;
+          }
+          
+          .btn:hover {
+            background: #7dcbd4;
+            text-decoration: none;
+          }
+          .button2{
+            position:relative;
+            margin-left:1050px;
+            margin-top:-350px;
+            width:200px;
+            height:30px;
+            font-size:20px;
+            color:black;
+            border-style:solid;
+            align-items:"center";
+        }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:whitesmoke; padding-left:600px;margin-top:50px;font-size:50px;"><strong>Clue for Round 4</strong></h1>
+        <div class=""d>
+        <img class="i" src="ele.jpeg" alt="">
+        <p class="p"><strong>This is the national animal of a particular place...<br>
+        Find that place???</strong></p>
+        </div>
+       
+            <input name="code" id="code" type="text" class="button2">
+      
+        <input name="submit" type="submit" id="button1" value="submit" class="btn" style="cursor:pointer"/>
+    </body>
+</html>

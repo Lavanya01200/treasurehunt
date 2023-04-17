@@ -1,0 +1,35 @@
+h1{
+  align:"center";
+  color:rgb(54, 121, 121);
+  padding-top:100px;
+  padding-left:450px;
+}
+h3{
+  align:"center";
+  padding-left:600px;
+  color:black;
+}
+form{
+align:"center";
+width:600px;
+height:400px;
+padding-top:100px;
+padding-left:500px;}
+.tab2{
+
+border-style:solid;
+border-radius: 10px;
+border-width:thin;
+border-collapse: separate;
+border-spacing:0px 20px;
+padding:20px;
+width:400px;
+height:200px;
+background-color:darkgray;
+}
+.login{
+  border-radius: 10px;
+  background-color:rgb(54, 121, 121);
+  color:white;
+
+}

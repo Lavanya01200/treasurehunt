@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Clue for Round5</title>
+    </head>
+    <script type="text/javascript">
+    
+        window.onload = function () {
+           document.getElementById('button1').onclick = function() {
+            if(document.getElementById("code").value == 'rome')
+                location.href = "clue.php";
+            
+            else{
+            location.href = "end.php";     }
+            return false;
+           }
+        }
+        
+    </script>
+
+    <style>
+        body{
+            background-image: url(col1.gif);
+            background-repeat:no-repeat;
+            background-size:100%;
+        }
+        .button2{
+            margin-left:700px;
+            margin-top:20px;
+            width:200px;
+            height:30px;
+            font-size:20px;
+            color:black;
+            border-style:solid;
+            align-items:"center";
+        }
+        .btn {
+            margin-left:760px;
+            margin-top:15px;
+            -webkit-border-radius: 31;
+            -moz-border-radius: 31;
+            border-radius: 31px;
+            text-shadow: 4px 3px 6px #a3a3a3;
+            -webkit-box-shadow: 5px 3px 5px #828282;
+            -moz-box-shadow: 5px 3px 5px #828282;
+            box-shadow: 5px 3px 5px #828282;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 23px;
+            padding: 12px;
+            background: #2376ad;
+            text-decoration: none;
+            border-style:none;
+          }
+          
+          .btn:hover {
+            background: #7dcbd4;
+            text-decoration: none;
+          }
+        .p1{
+            margin-top:20px;
+            margin-left:20px;
+            font-size:20px;
+            align-items:"center";
+        }
+        .ques5{
+            align-items:"center";
+            width:600px;
+            height:230px;
+            margin-left:500px;
+            margin-top:20px;
+            border-style: groove;
+          }
+    </style>
+    <body>
+        <h1 style="color:whitesmoke; padding-left:600px;margin-top:50px;font-size:50px;"><strong>Clue for Round5</strong></h1>
+        <div class="ques5">
+            <p class="p1"><strong>
+                Now,you are one step behind winning the treasure... <br>
+                Come on be quick in answering this clue<br>
+                Raju is planning for a trip in this summer holidays.<br>
+                So, he is searching for some tourist places to visit.<br>
+                He saw this picture and felt very excited to visit this place<br> which you see on the screen.<br>
+                But he was unable to find the place in which it is located.<br>
+                So,please help Raju in finding the location of this image...
+                </strong>
+            </p>
+        </div>
+        <div>
+            <input name="code" id="code" type="text" class="button2">
+        </div>
+        <input name="submit" type="submit" id="button1" value="submit" class="btn" style="cursor:pointer"/>
+    </body>
+</html>
+

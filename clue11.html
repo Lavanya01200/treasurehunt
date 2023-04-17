@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url(img1.jpeg);
+                background-repeat:no-repeat;
+                background-size:cover;
+              }
+              .btn {
+                margin-left:750px;
+                margin-top:10px;
+                -webkit-border-radius: 31;
+                -moz-border-radius: 31;
+                border-radius: 31px;
+                text-shadow: 4px 3px 6px #a3a3a3;
+                -webkit-box-shadow: 5px 3px 5px #828282;
+                -moz-box-shadow: 5px 3px 5px #828282;
+                box-shadow: 5px 3px 5px #828282;
+                font-family: Arial;
+                color: #ffffff;
+                font-size: 23px;
+                padding: 12px;
+                background: #2376ad;
+                text-decoration: none;
+                border-style:none;
+              }
+              .button2{
+                margin-left:700px;
+                margin-top:20px;
+                width:200px;
+                height:30px;
+                font-size:20px;
+                color:black;
+                border-style:solid;
+                align-items:"center";
+            }   
+              
+              .btn:hover {
+                background: #7dcbd4;
+                text-decoration: none;
+              }
+              .ques1{
+                width:600px;
+                height:150px;
+                margin-left:500px;
+                margin-top:60px;
+                border-style: groove;
+              }
+              .p1{
+                padding-left:15px;
+                
+                font-size:18px;
+              }
+        </style>
+        <script type="text/javascript">
+    
+            window.onload = function () {
+               document.getElementById('button1').onclick = function() {
+                if(document.getElementById("code").value == 'kerala')
+                    location.href = "clue2.php";
+                
+                else{
+                location.href = "end.html";     }
+                return false;
+               }
+            }
+            
+        </script>
+    
+    </head>
+    <body>
+        <h1 style="color:whitesmoke; padding-left:600px;margin-top:100px;font-size:50px;"><strong>Clue for Round1</strong></h1>
+        <div class="ques1">
+            <p class="p1">
+              <strong>
+                Hello folks !!! Here is another chance for you to play the game <br>
+                So, Be cautious to continue the game <br>
+                A very popular tourist spot in Southern India is known as God's own country. Which is it?
+                
+            </strong>
+            </p>
+        </div>
+        <div>
+            <input name="code" id="code" type="text" class="button2">
+        </div>
+        <input name="submit" type="submit" id="button1" value="submit" class="btn" style="cursor:pointer"/>
+    </body>
+</html>

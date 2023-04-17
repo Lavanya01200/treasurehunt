@@ -1,0 +1,85 @@
+body{
+    align-items: end;
+    color: antiquewhite;
+    background-color: black;
+    background: url(b4.jpg);
+    background-size: 110% 100%;
+    padding-left: 20%;
+    overflow:hidden;
+    
+}
+.hangtab{
+    margin-left:200px;
+}
+.b1
+{
+    position:relative;
+    padding: 6px 18px; 
+    left: 280px;
+    color:white;
+    background-color:#3d3694;
+    top:50px;  
+    font-size: 16px;
+}
+.mvs
+{
+    color:aliceblue;
+    color:whitesmoke;
+    font-size: 22px;
+    position:relative; 
+    left:-155px;
+    top: 40px;
+}
+.t{
+    color:whitesmoke;
+    font-size: 50px;
+    position:relative; 
+    left: 120px;
+    top:60px;
+  
+}
+.Remaining
+{
+    color:aliceblue;
+    font-size: 22px;
+    position:relative; 
+    left: 50px;
+    top:40px;
+}
+.txtbx
+{
+    position:relative; 
+    left: 230px;
+    top:-300px;
+}
+.check
+{
+    position:relative; 
+    left: 230px;
+    top:-300px;
+}
+.reset
+{
+    position:relative; 
+    left: 307px;
+    top:-290px;
+}
+#hngim{
+    width: 350px;
+    height: 346px;
+    background-image: url(2red.jpg);
+    position: relative;
+    left: -70px;
+    top:-10px;
+}
+table{
+    height: 50px;
+    width: 600px;
+}
+#aples{
+    position:relative;
+    left: 50px;
+    
+    padding: 20px 20px 20px 20px;
+    font-size: x-large;
+}

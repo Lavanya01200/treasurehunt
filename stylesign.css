@@ -1,0 +1,24 @@
+
+body{
+  background-image: url(img1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .tab1{
+    border-style:solid;
+    border-radius: 10px;
+    border-width:thin;
+    border-collapse: separate;
+    border-spacing:0px 20px;
+    padding:40px;
+    background-color:lightcyan;
+  }
+  .hello{
+    color:black;
+    font-weight:normal;
+    font-variant: inherit;
+    font-family: fantasy;
+  }
+
+
